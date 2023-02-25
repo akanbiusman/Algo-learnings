@@ -1,3 +1,17 @@
+# ------------------
+# EFFICIENCY OF LINKED LISTS OPERATIONS
+# Operations        | SLL  | DLL
+# access an element | O(n) | O(n)
+# add or remove at an 
+# iterator position | O(1) | O(1)
+# add or remove first
+# element           | O(1) | O(1)
+# add last element  | O(1) | O(1)
+# remove last 
+# element           | O(n) | O(1)
+#------------------
+
+
 class node:
     def __init__(self, data = None):
         self.data = data
@@ -68,3 +82,5 @@ my_list.append(4)
 my_list.erase(1)
 
 print(my_list.display())
+
+# Brian Faure @ Youtube
